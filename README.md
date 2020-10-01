@@ -1,17 +1,26 @@
 # Random GIF Activity
 
 The purpose of this activity is to write a small web application
-that displays a random GIF. The user stories are as a follow.
+that displays a random GIF. We're going to do this in turn: you'll
+try to complete some user stories in teams and then Kyle will walk
+through completing those stories. These stories are pretty weak 😜,
+there's no acceptance criteria and such, sorry.
 
-```
-As a user, I can visit the "/" URL and see a button that says
-"display gif" on an otherwise empty webpage.
 
-As a user, I can click the button and it takes me to the same page
-and shows me a random GIF along with the same button as before.
-```
+The user stories are as follows:
 
-## Getting started
+1. As a user, I can visit your website and it shows "hello world"
+   at the "/" URL.
+2. As a user, I can visit your website and it shows "hello world"
+   in HTML with a colored background.
+3. As a user, I can visit your website and it shows a gif of your
+   choosing along with search box and a button that says "reload"
+   or similar.
+4. As a user, I can put the query "cats" into the search box, and the gif
+   that is displayed is changed to be equal to
+   `http://giphy-proxy.solutions.656.mba/?q=cats`.
+
+## Hints
 
 1. Create a new, empty git repository in some directory on your computer (or Cloud9)
 2. Create a `main.go` file, or similar. You could call it `foo.go`, it doesn't matter.
@@ -29,10 +38,4 @@ and shows me a random GIF along with the same button as before.
    </html>
    `
    ```
-
    and write that to the HTTP response.
-
-5. ....umm...class is starting, you're on your own.
-6. Look at [this example](http://polyglot.ninja/golang-making-http-requests/) for how to
-   make HTTP get requests. Get your random Gif from my API at
-   [http://giphy-proxy.solutions.656.mba](http://giphy-proxy.solutions.656.mba)
